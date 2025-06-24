@@ -1,0 +1,21 @@
+Simulink Layout Description
+
+1️⃣ Subsystem: Longitudinal Dynamics
+- Constant Block: 4000 (Traction Force)
+- Gain Block: -0.5 * Cd * A * rho / m
+- Gain Block: -Crr * g
+- Sum Block: total forces
+- Gain Block: 1/m (to get acceleration)
+- Integrator Block: integrates acceleration to speed
+- Scope Block: plots speed over time
+
+2️⃣ Subsystem: Lateral Dynamics
+- Constant Block: 5° Steering Input
+- Gain Blocks: Cf, Cr values
+- Sum Blocks: compute Fyf, Fyr
+- Sum Block: yaw moment calculation
+- Gain Block: 1/Iz for r_dot
+- Integrator Block: yaw rate (r)
+- Gain Block: 1/mv for lateral acceleration
+- Integrator Block: sideslip angle (β)
+- Scope Blocks: for r and β

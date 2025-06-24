@@ -1,0 +1,5 @@
+📈 Longitudinal Vehicle Speed: The speed steadily increases over time as traction overcomes drag and rolling resistance.
+
+📉 Yaw Rate vs Time: Shows the vehicle’s rotational speed around its vertical axis as it responds to a constant steering input.
+
+📉 Sideslip Angle vs Time: The sideslip angle gradually stabilizes as the vehicle aligns its lateral motion to the steering input.
