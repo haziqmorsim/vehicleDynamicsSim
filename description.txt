@@ -1,0 +1,8 @@
+Project Description:
+This Vehicle Dynamics Simulation models longitudinal and lateral vehicle behavior using MATLAB and Simulink. It simulates responses to traction, drag, rolling resistance, and cornering forces during acceleration, braking, and steering.
+
+Longitudinal dynamics calculate vehicle speed based on a force balance, while lateral dynamics use a bicycle model to estimate yaw rate and sideslip angle under steering input.
+
+Results are plotted over time, and a Simulink model visually represents the system using interactive block diagrams and scopes.
+
+Suitable for automotive engineers, students, and simulation enthusiasts.
